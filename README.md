@@ -9,7 +9,8 @@
 
 ## View the monitor
 
-1. Visit `index.html` inside `/monitor/` folder
-2. The dashboard will show the status of all registered service in each card on the screen
+1. Make sure eureka from the last section is still running
+2. Visit `http://localhost:8761/dash` to view the dashboard
+3. The dashboard will show the status of all registered service in each card on the screen
 
-**The monitor must be served on development server such as XAMPP / Live Server to be able to perform Cross-Origin Request**
+**Refresh the status by refreshing page (`F5` or `Ctrl + R`)**
