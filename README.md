@@ -12,4 +12,4 @@
 1. Visit `index.html` inside `/monitor/` folder
 2. The dashboard will show the status of all registered service in each card on the screen
 
-** The monitor must be served on development server such as XAMPP / Live Server to be able to perform Cross-Origin Request **
+**The monitor must be served on development server such as XAMPP / Live Server to be able to perform Cross-Origin Request**
