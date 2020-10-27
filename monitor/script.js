@@ -53,10 +53,14 @@ var app = new Vue({
     loaded: false,
   },
   async created() {
-    const { data } = await axios.get("http://localhost:8761/eureka/apps/", {
-      Accept: "application/json",
-    });
-    this.application = data.applications.application;
+    try {
+      const { data } = await axios.get("http://localhost:8761/eureka/apps/", {
+        Accept: "application/json",
+      });
+      this.application = data.applications.application;
+    } catch (error) {
+      this.application = [];
+    }
     this.loaded = true;
   },
 });
