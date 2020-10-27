@@ -1,30 +1,5 @@
 # Service Discovery Monitor
 
-## Prerequisite
-
-- Node
-- NPM
-
-## Running monitor project
-
-Change directory to /monitor/
-
-```
-cd monitor
-```
-
-Install dependencies
-
-```
-npm install
-```
-
-Start the development server on `localhost:3000`
-
-```
-npm run dev
-```
-
 ## Running eureka and 5 other services
 
 1. Import Maven project in `services` folder into Eclipse IDE
@@ -34,6 +9,7 @@ npm run dev
 
 ## View the monitor
 
-1. Start the monitor development server, service discovery server and 5 service clients
-2. Visit `localhost:3000`
-3. The dashboard will show the status of all registered service in each card on the screen
+1. Visit `index.html` inside `/monitor/` folder
+2. The dashboard will show the status of all registered service in each card on the screen
+
+** The monitor must be served on development server such as XAMPP / Live Server to be able to perform Cross-Origin Request **
